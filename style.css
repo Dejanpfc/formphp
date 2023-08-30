@@ -1,0 +1,41 @@
+body {
+  font-size: 22px;
+  height: 28px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+label,
+input,
+select {
+  display: block;
+  background-color: #333;
+  font-size: 1.5rem;
+  height: 1.8rem;
+  margin-bottom: 10px;
+}
+label {
+  background-color: #000;
+}
+select {
+  margin-bottom: 30px;
+  width: 100%;
+  color: #f4f4f4;
+}
+option {
+  color: #f4f4f4;
+}
+button {
+  display: inline-block;
+  background-color: #28f;
+  font-size: 1.5rem;
+  height: 1.8rem;
+  border: none;
+  text-align: center;
+}
